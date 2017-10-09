@@ -1,14 +1,11 @@
 const path = require('path');
 
 module.exports = {
-    context: path.resolve(__dirname, 'src'),
-    entry: {
-        home: './Home',
-        shop: './Shop',
-        profile: './Profile'
-    },
+    context: path.join(__dirname, 'src'),
+    entry: './a',
     output: {
-        filename: "[name].js",
-        path: path.resolve(__dirname, 'dest')
-    }
+        path: path.join(__dirname, 'dest'),
+        filename: "bundle.js"
+    },
+    devtool: "eval"
 }
