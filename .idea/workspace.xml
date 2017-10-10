@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b28307-6655-4245-b824-2fffc1315ef7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dest/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dest/profile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dest/shop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Profile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Shop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/profile-item.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/shop-item.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dest/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/d.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/bundle.js" afterPath="$PROJECT_DIR$/dest/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,8 +31,8 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -95,7 +91,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="307" />
     <option name="y" value="-8" />
     <option name="width" value="633" />
@@ -244,12 +243,12 @@
       <workItem from="1507566077493" duration="170000" />
       <workItem from="1507566431750" duration="735000" />
       <workItem from="1507567586823" duration="145000" />
-      <workItem from="1507567794099" duration="1489000" />
+      <workItem from="1507567794099" duration="2087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12360000" />
+    <option name="totallyTimeSpent" value="12958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -261,9 +260,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16443452" sideWeight="0.47905758" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16443452" sideWeight="0.47905758" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32928944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.29560685" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -492,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="210">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -68,13 +68,18 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(__webpack_exports__, \"__esModule\", { value: true });\n/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__b_js__ = __webpack_require__(1);\n/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__b_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__b_js__);\n\r\n\r\nconsole.log('a')\n\n//////////////////\n// WEBPACK FOOTER\n// ./a.js\n// module id = 0\n// module chunks = 0\n\n//# sourceURL=webpack:///./a.js?");
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Module__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Module___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Module__);
+
+
+
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
 
-eval("console.log('b')\n\n//////////////////\n// WEBPACK FOOTER\n// ./b.js\n// module id = 1\n// module chunks = 0\n\n//# sourceURL=webpack:///./b.js?");
+console.log('Module.js')
 
 /***/ })
 /******/ ]);
