@@ -1,5 +1,5 @@
 const path = require('path');
-const CaseSensitivePathsWebpackPlugin = require('case-sensitive-paths-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
     context: path.join(__dirname, 'src'),
@@ -9,6 +9,6 @@ module.exports = {
         filename: "bundle.js"
     },
     plugins: [
-        new CaseSensitivePathsWebpackPlugin()
+    	new webpack.optimize.UglifyJsPlugin()
     ]
 }
