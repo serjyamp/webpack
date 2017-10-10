@@ -1,21 +1,24 @@
 const path = require('path');
-const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     context: path.join(__dirname, 'src'),
-    entry: './init.js',
+    entry: {
+        index: './index',
+        shop: './shop'
+    },
     output: {
         path: path.join(__dirname, 'dest'),
-        filename: "bundle.js"
+        filename: "[name].js"
     },
     plugins: [
-    	new webpack.DefinePlugin({
-    		VERSION: JSON.stringify( "0.0.2"),
-    		PRODUCTION: false,
-    		HTML5_SUPPORT: true
-    	}),
-        new webpack.ProvidePlugin({
-            $: 'jquery'
+        new HtmlWebpackPlugin({
+            title: "piptik",
+            hash: true,
+            minify: {
+                html5: true
+            },
+            template: "./tmpl.html"
         })
     ]
 }
