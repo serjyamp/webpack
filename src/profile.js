@@ -6,6 +6,7 @@ import _ from 'lodash';
 $('body').length();
 _.time();
 
-console.log('index')
+
+console.log('profile')
 app();
 action();

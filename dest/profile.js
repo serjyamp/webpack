@@ -1,6 +1,6 @@
-webpackJsonp([3],{
+webpackJsonp([2],{
 
-/***/ 4:
+/***/ 7:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,10 +19,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 __WEBPACK_IMPORTED_MODULE_2_jquery___default()('body').length();
 __WEBPACK_IMPORTED_MODULE_3_lodash___default.a.time();
 
-console.log('index')
+
+console.log('profile')
 Object(__WEBPACK_IMPORTED_MODULE_1__common_app__["a" /* default */])();
 Object(__WEBPACK_IMPORTED_MODULE_0__common_action__["a" /* default */])();
 
 /***/ })
 
-},[4]);
+},[7]);
