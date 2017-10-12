@@ -15,7 +15,10 @@ module.exports = {
     		{
     			test: require.resolve('jquery'),
     			loader: 'expose-loader?$'
-    		}
+    		}, {
+                test: /no-export.js/,
+                loader: "exports-loader?hiddenConst"
+            }
     	]
     }
 }
