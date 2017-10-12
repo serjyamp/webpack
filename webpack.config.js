@@ -3,21 +3,20 @@ const path = require('path');
 module.exports = {
     context: path.join(__dirname, 'src'),
     entry: {
-        index: './index',
-        vendor: ['jquery']
+        index: './index'
     },
     output: {
         path: path.join(__dirname, 'dest'),
-        filename: "[name].js"
+        filename: "bundle.js"
     },
     module:{
     	rules: [
     		{
-    			test: require.resolve('jquery'),
-    			loader: 'expose-loader?$'
-    		}, {
-                test: /no-export.js/,
-                loader: "exports-loader?hiddenConst"
+                test: /\.js$/,
+                loader: 'strip-loader',
+                options: {
+                    strip: ['console.*']
+                }
             }
     	]
     }

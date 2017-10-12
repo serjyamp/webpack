@@ -1,4 +1,5 @@
-import * as noExport from './no-export';
+alert(1);
+console.warn('debug');
+console.log('more dab');
 
-console.log($)
-console.log(noExport)
+var a = 1;
