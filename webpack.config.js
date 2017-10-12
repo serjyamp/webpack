@@ -12,10 +12,10 @@ module.exports = {
     module:{
     	rules: [
     		{
-                test: /\.js$/,
-                loader: 'strip-loader',
+                test: /\.png$/,
+                loader: 'file-loader',
                 options: {
-                    strip: ['console.*']
+                    name: '[path][name].[ext]?[hash]'
                 }
             }
     	]

@@ -65,13 +65,21 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-alert(1);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__img_arctic_fox_PNG18480_png__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__img_arctic_fox_PNG18480_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__img_arctic_fox_PNG18480_png__);
 
 
+console.log(__WEBPACK_IMPORTED_MODULE_0__img_arctic_fox_PNG18480_png___default.a)
 
-var a = 1;
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/arctic_fox_PNG18480.png?79edd8757512b80f6116ce6e3569ea5a";
 
 /***/ })
 /******/ ]);

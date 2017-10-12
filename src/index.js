@@ -1,5 +1,3 @@
-alert(1);
-console.warn('debug');
-console.log('more dab');
+import logo from './img/arctic_fox_PNG18480.png';
 
-var a = 1;
+console.log(logo)
