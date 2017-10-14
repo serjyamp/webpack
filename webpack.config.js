@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlPlugin = require('html-webpack-plugin');
  
 module.exports = {
     context: path.join(__dirname, 'src'),
@@ -9,14 +10,15 @@ module.exports = {
         path: path.join(__dirname, 'dest'),
         filename: "bundle.js"
     },
+    plugins: [
+        new HtmlPlugin({
+            title: 'webpack devchik server'
+        })
+    ],
     module:{
     	rules: [
     		{
-                test: /\.png$/,
-                loader: 'file-loader',
-                options: {
-                    name: '[path][name].[ext]?[hash]'
-                }
+                
             }
     	]
     }
