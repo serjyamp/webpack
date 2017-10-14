@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
  
 module.exports = {
@@ -13,13 +14,18 @@ module.exports = {
     plugins: [
         new HtmlPlugin({
             title: 'webpack devchik server'
-        })
+        }),
+        new webpack.HotModuleReplacementPlugin()
     ],
-    module:{
-    	rules: [
-    		{
-                
+    devServer: {
+        hot: true
+    },
+    module: {
+        rules:[
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             }
-    	]
+        ]
     }
 }
